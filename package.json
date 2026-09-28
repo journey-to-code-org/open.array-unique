@@ -1,0 +1,35 @@
+{
+  "name": "@journey-to-code/open-array-unique",
+  "version": "1.0.0",
+  "description": "Dependency-free array deduplication by value, property name, or key selector.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "array",
+    "unique",
+    "deduplicate",
+    "utility"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
